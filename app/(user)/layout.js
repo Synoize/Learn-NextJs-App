@@ -23,8 +23,10 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable}`}
       >
-        <Navigation/>
-        {children}
+        <Navigation />
+        <div className='max-w-7xl mx-auto p-8'>
+          {children}
+        </div>
       </body>
     </html>
   );

@@ -7,12 +7,22 @@ const Navigation = () => {
             <div>Logo</div>
             <nav>
                 <ul className='flex gap-8'>
-                    <li><Link href='/'>Home</Link></li>
-                    <li><Link href='/about'>About</Link></li>
-                    <li><Link href='/services'>Services</Link></li>
-                    <li><Link href='/profile'>Profile</Link></li>
+                    <li>
+                        <Link href='/'>Home</Link>
+                    </li>
+                    <li>
+                        <Link href='/about'>About</Link>
+                    </li>
+                    <li>
+                        <Link href='/services'>Services</Link>
+                    </li>
+                    <li>
+                        <Link href='/contact'>Contact</Link>
+                    </li>
+                    <li>
+                        <Link href='/profile'>Profile</Link>
+                    </li>
                 </ul>
-
             </nav>
 
             <div className='flex justify-end gap-4'>

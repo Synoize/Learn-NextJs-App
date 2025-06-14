@@ -3,7 +3,7 @@ import React from 'react'
 // App Routes
 const About = () => {
   return (
-    <div>About</div>
+    <div className='common_heading'>About</div>
   )
 }
 
