@@ -1,12 +1,12 @@
 import Link from 'next/link'
-import React from 'react'
+import React from 'react' 
 
 const Navigation = () => {
     return (
-        <header className='grid grid-cols-3 h-20 items-center  bg-white text-black px-10'>
-            <div>Logo</div>
+        <header className='grid grid-cols-3 h-20 items-center  bg-white text-black px-10 font-outfit'>
+            <div className='font-extrabold text-2xl'>LOGO</div>
             <nav>
-                <ul className='flex gap-8'>
+                <ul className='hidden sm:flex gap-8'>
                     <li>
                         <Link href='/'>Home</Link>
                     </li>
@@ -25,7 +25,7 @@ const Navigation = () => {
                 </ul>
             </nav>
 
-            <div className='flex justify-end gap-4'>
+            <div className='hidden sm:flex justify-end gap-4'>
                 <Link href='/login'>
                     <button className='border rounded-lg p-2 px-8 cursor-pointer'>Login</button>
                 </Link>
