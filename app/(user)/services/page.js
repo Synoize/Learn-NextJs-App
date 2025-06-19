@@ -9,7 +9,6 @@ const Services = async () => {
 
   console.log(data);
 
-
   return (
     <div>
       <h1 className='common_heading'>Services</h1>
