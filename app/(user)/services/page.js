@@ -1,4 +1,5 @@
 import React from 'react'
+import ServiceList from './ServiceList';
 
 // server component
 const Services = async () => {
@@ -13,6 +14,7 @@ const Services = async () => {
     <div>
       <h1 className='common_heading'>Services</h1>
       <div>
+        <ServiceList/>
         <ul className='h-[60vh] overflow-y-auto'>
           {
             data.map((data, idx) => (
