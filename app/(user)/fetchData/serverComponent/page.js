@@ -5,6 +5,12 @@ const fetchDataServer = async (props) => {
   const searchParams = await props.searchParams
   const username = searchParams.name
 
+  await new Promise((resolve) => {
+    setTimeout(() => {
+      resolve()
+    }, 3000)
+  })
+  
   let userData = null
 
   if (username) {
